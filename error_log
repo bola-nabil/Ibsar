@@ -1,0 +1,32 @@
+[06-May-2023 16:37:42 America/Boise] PHP Warning:  require(/home2/kiriazis/public_html/ebsar/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/kiriazis/public_html/ebsar/index.php on line 34
+[06-May-2023 16:37:42 America/Boise] PHP Warning:  require(/home2/kiriazis/public_html/ebsar/../vendor/autoload.php): Failed to open stream: No such file or directory in /home2/kiriazis/public_html/ebsar/index.php on line 34
+[06-May-2023 16:37:42 America/Boise] PHP Fatal error:  Uncaught Error: Failed opening required '/home2/kiriazis/public_html/ebsar/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php81/root/usr/share/pear') in /home2/kiriazis/public_html/ebsar/index.php:34
+Stack trace:
+#0 {main}
+  thrown in /home2/kiriazis/public_html/ebsar/index.php on line 34
+[04-Jul-2023 14:38:31 America/Boise] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(642): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(623): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Exception))
+#6 /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(493): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Exception))
+#7 /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(138): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(Exception))
+#8 /home2/kiriazis/public_html/ebsar/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
+[04-Jul-2023 14:38:37 America/Boise] PHP Fatal error:  Uncaught RuntimeException: A facade root has not been set. in /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php:335
+Stack trace:
+#0 /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/RegisterErrorViewPaths.php(18): Illuminate\Support\Facades\Facade::__callStatic('replaceNamespac...', Array)
+#1 /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(642): Illuminate\Foundation\Exceptions\RegisterErrorViewPaths->__invoke()
+#2 /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(623): Illuminate\Foundation\Exceptions\Handler->registerErrorViewPaths()
+#3 /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(554): Illuminate\Foundation\Exceptions\Handler->renderHttpException(Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#4 /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(460): Illuminate\Foundation\Exceptions\Handler->prepareResponse(Object(Illuminate\Http\Request), Object(Symfony\Component\HttpKernel\Exception\HttpException))
+#5 /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(377): Illuminate\Foundation\Exceptions\Handler->renderExceptionResponse(Object(Illuminate\Http\Request), Object(Exception))
+#6 /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(493): Illuminate\Foundation\Exceptions\Handler->render(Object(Illuminate\Http\Request), Object(Exception))
+#7 /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(138): Illuminate\Foundation\Http\Kernel->renderException(Object(Illuminate\Http\Request), Object(Exception))
+#8 /home2/kiriazis/public_html/ebsar/index.php(52): Illuminate\Foundation\Http\Kernel->handle(Object(Illuminate\Http\Request))
+#9 {main}
+  thrown in /home2/kiriazis/public_html/ebsar/vendor/laravel/framework/src/Illuminate/Support/Facades/Facade.php on line 335
